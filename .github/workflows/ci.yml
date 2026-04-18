@@ -1,10 +1,10 @@
-name: CI - Train and save the model test
+name: CI - Train and save the model to verify
 
 on:
   push:
-    branches: [main, dev]
+    branches: [dev]
   pull_request:
-    branches: [main, dev]
+    branches: [dev]
 
 jobs:
   matrix-pip:
@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v
+        uses: actions/checkout@v4
 
       - name: Setup python
         uses: actions/setup-python@v4
