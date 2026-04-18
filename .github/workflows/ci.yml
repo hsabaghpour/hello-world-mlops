@@ -1,4 +1,4 @@
-name: CI - Train and Save the model
+name: CI - Train and Save the model test
 
 on:
   push:
