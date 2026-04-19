@@ -145,6 +145,7 @@ If you want, next I can add a second file with a 30-day learning roadmap from th
 4. Added automation so model retraining and validation can run on code changes.
 5. Containerized the solution with Docker to run consistently across environments.
 6. Deployed MLflow on local Kubernetes to practice production-style ML operations.
+7. Exposed the deployed MLflow UI through secure port-forwarding (`7001 -> 5000`) and validated live connectivity.
 
 ### Why This Matters
 
@@ -156,3 +157,8 @@ If you want, next I can add a second file with a 30-day learning roadmap from th
 ### Current Goal
 
 Move from a learning prototype to a production-ready MLOps workflow where training, tracking, deployment, and monitoring are automated and repeatable with minimal manual effort.
+
+## 11) MLflow References
+
+- Basic installation: https://community-charts.github.io/docs/charts/mlflow/basic-installation
+- PostgreSQL backend installation: https://community-charts.github.io/docs/charts/mlflow/postgresql-backend-installation
