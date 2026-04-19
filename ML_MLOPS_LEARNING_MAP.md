@@ -134,3 +134,25 @@ docker run --rm -p 5001:5001 hello-mlops:latest
 ---
 
 If you want, next I can add a second file with a 30-day learning roadmap from this project to production-level MLOps.
+
+## 10) Manager-Friendly Project Update (Non-Technical)
+
+### What I Completed So Far
+
+1. Built a working machine learning prototype that can make predictions.
+2. Saved the model in a reusable format so it can be used by other systems.
+3. Exposed the model through an API so users/services can request predictions.
+4. Added automation so model retraining and validation can run on code changes.
+5. Containerized the solution with Docker to run consistently across environments.
+6. Deployed MLflow on local Kubernetes to practice production-style ML operations.
+
+### Why This Matters
+
+- Faster iteration: model updates can be tested and delivered more quickly.
+- Better reliability: standard packaging reduces environment-related failures.
+- Better traceability: model and workflow changes are easier to track and audit.
+- Better scalability readiness: this forms a base for real production deployment.
+
+### Current Goal
+
+Move from a learning prototype to a production-ready MLOps workflow where training, tracking, deployment, and monitoring are automated and repeatable with minimal manual effort.
